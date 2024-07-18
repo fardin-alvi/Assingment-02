@@ -18,7 +18,26 @@
 body{
     background-color: slategray;
 }
-
+.title-description-font{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 11.5px;
+    font-weight: 400;
+}
+.habit-item-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+.habit-title-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 5px; 
+}
 /* nav bar css  */
 .nav-left-content{
     color: rgb(230, 83, 60);
@@ -29,6 +48,10 @@ body{
 #nav-btn{
     border-radius: 15px;
     padding: 4px 11px;
+    margin-top: 4.4px
+}
+.nav-home{
+    margin: auto o;
 }
 .nav-list{
     list-style: none;
@@ -57,7 +80,7 @@ body{
     /* border: 1px solid red; */
     justify-content: center;
     align-content: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 #shape{
     font-family:'Dancing Script', cursive;
@@ -74,18 +97,14 @@ body{
     font-weight: 700;
 }
 .banner-description{
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
-    font-weight: 400;
-
 }
 
 .banner-right-content{
     /* border: 1px solid hotpink; */
     justify-content: center;
     align-content: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 .banner-image{
     /* border: 1px solid greenyellow; */
@@ -103,11 +122,12 @@ body{
     border-radius: 20px;
 }
 #banner-btn-secondary{
-    padding: 8px 35px;
+    padding: 8px 30px;
     border-radius: 20px;
     background-color: transparent;
     border-color: transparent;
     border: 1px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .VT{
@@ -118,6 +138,7 @@ body{
     background-color: rgba(255, 255, 255, 0.174);
     border-radius: 10px;
     border-color: transparent;
+    gap: 6px;
 }
 .vt-title{
     color: rgb(250, 250, 249);
@@ -130,6 +151,14 @@ body{
     font-family: Inter;
     font-size: 12px;
     font-weight: 300;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-top: 4px;
 }
 .wt{
     /* border: 1px solid black; */
@@ -152,4 +181,112 @@ body{
     font-family: Inter;
     font-size: 12px;
     font-weight: 300;
+}
+
+/* habit images and content section  */
+
+.habit{
+    margin: 0 170px ;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+}
+.habit-description{
+    margin-top: 17px;
+}
+.habit-item{
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+}
+.habit-content{
+    margin-top: 30px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.ex{
+    height: 122px;
+    width: 130px;
+    margin: 0 auto;
+}
+.ex > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+/* runner content and image section  */
+
+.run{
+    border: 1px solid black;
+    margin: 10px 168px;
+    gap: 30px;
+    align-items: center;
+    margin-top: 80px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 13px;
+}
+.run-content{
+    /* border: 1px solid springgreen; */
+    width: 45%;
+    margin-left: 30px;
+}
+.run-content-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 37px;
+    font-weight: 700;
+
+}
+.run-content-description{
+    margin-top: 13px;
+}
+.run-image{
+    /* border: 1px solid yellow; */
+    width: 240px;
+    height: 280px;
+    width: 45%;
+    padding: 15px;
+}
+#run-content-btn{
+    margin-top: 18px;
+    width: 170px;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+.run-image > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* BMI section css  */
+
+.BMI-header{
+    text-align: center;
+    margin-top: 80px;
+}
+.BMI-header-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.BMI-calculation{
+    border: 1px solid black;
+}
+.chart{
+    border: 1px solid greenyellow;
+}
+.calculator{
+    border: 1px solid gold;
 }

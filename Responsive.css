@@ -3,7 +3,7 @@
         margin: 20px 30px ;
     }
     .nav-left-content{
-        font-size: 50px;
+        font-size: 45px;
     }
     .nav-list{
         display: none;
@@ -13,7 +13,7 @@
         font-size: 30px;
         color: white;
         /* margin-left: 280px; */
-        margin-top: 20px;
+        margin-top: 12px;
         margin-left: 160px;
     }
     .banner{
@@ -28,5 +28,39 @@
         width: 100%;
 
     }
-
+    .habit{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .habit-content{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .ex{
+        width: auto;
+        height: auto;
+    }
+    .run{
+        flex-direction: column;
+        width: 100%;
+        margin: 30px 3px 0 3px;
+    }
+    .run-content{
+        width: auto;
+    }
+    #run-content-btn{
+        align-content: center;
+        /* width: 70%;
+        height: 45px;
+        border-radius: 35px; */
+    }
+    .run-image{
+        width: auto;
+    }
+    .BMI-header{
+        text-align: left;
+        width: 80%;
+        margin-left: 16px;
+    }
+    
 }
