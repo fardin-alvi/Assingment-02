@@ -50,17 +50,68 @@
     }
     #run-content-btn{
         align-content: center;
-        /* width: 70%;
-        height: 45px;
-        border-radius: 35px; */
     }
     .run-image{
         width: auto;
     }
+
     .BMI-header{
-        text-align: left;
-        width: 80%;
-        margin-left: 16px;
+        margin: 40px auto;
+        margin-left: 6%;
     }
-    
+    .BMI-calculation{
+        flex-direction: column;
+    }
+    .chart{
+        width: auto;
+        margin-right: 30%;
+    }
+    .bmi-table{
+        margin: 20px auto;
+    }
+    .calculator{
+        width: auto;
+        margin-left: 6%;
+    }
+    .BMI-input-pre{
+        padding: 4px 8px;
+    }
+    #Gender{
+        width: 47%;
+    }
+    #Activity{
+        width: 95%;
+        margin-top: 4px;
+    }
+    #Calculate-btn{
+        margin-top: 20px;
+    }
+
+    .team{
+        margin: 2rem 3%;
+    }
+    .team-card{
+        grid-template-columns: repeat( 1 , 1fr);
+        margin: 2rem 1rem;
+    }
+    .team-member{
+        height: auto;
+        width: 100%;
+    }
+    .Intro > h4{
+        font-size: 14px;
+    }
+    .Intro > p{
+        font-size: 11px;
+    }
+
+    .conclusion , .content-sec{
+        flex-direction: column;
+    }
+    .content-pre , .content-sec {
+        width: auto;
+    }
+    .content-sec-1 , .content-sec-2{
+        margin-top: 10px;
+    }
 }
