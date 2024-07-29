@@ -11,9 +11,6 @@
 .display-flex{
     display: flex;
 }
-.displays{
-    display: none;
-}
 .btn-primary{
     background-color: rgb(230, 83, 60);
     font-family: Inter;
@@ -396,7 +393,7 @@ td{
 .team-member{
     height: 250px;
     width: 270px;
-    position:relative;
+    /* position:relative; */
 }
 .team-member > img{
     width: 100%;
@@ -404,11 +401,12 @@ td{
     border-radius: 13px;
 }
 .Intro{
-    position: absolute;
+    /* position: absolute;
     left: 6%;
-    bottom:7%;
+    bottom:7%; */
     text-align: left;
     color: white;
+    transform: translate(10px , -3rem)
 }
 .Intro > h4{
     color: rgb(255, 255, 255);
@@ -433,7 +431,7 @@ td{
 .plan-explanation > h2 {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 34px;
+    font-size: 31px;
     font-weight: 800;
 }
 .plan-explanation > p {
@@ -575,6 +573,9 @@ hr{
     text-align: center;
     margin: 2rem auto;
 }
+.hide{
+    display: none;
+}
 
 @media screen and (max-width:576px) {
     .nav-bar{
@@ -591,7 +592,7 @@ hr{
         font-size: 30px;
         color: white;
         margin-top: 12px;
-        margin-left: 160px;
+        margin-left: 140px;
     }
 
 /* header banner  Section Responsive css */
@@ -660,13 +661,13 @@ hr{
         margin-left: 6%;
     }
     .BMI-input-pre{
-        padding: 4px 8px;
+        padding: 4px 7.5px;
     }
     #Gender{
-        width: 47%;
+        width: 45%;
     }
     #Activity{
-        width: 95%;
+        width: 91%;
         margin-top: 4px;
     }
     #Calculate-btn{
@@ -674,23 +675,25 @@ hr{
     }
 
 /* team-member Section Responsive css */
-
-    .team{
-        margin: 2rem 3%;
-    }
-    .team-card{
+  
+    /* .team{
+        max-width: auto;
+    } */
+    .team-card {
         grid-template-columns: repeat( 1 , 1fr);
-        margin: 2rem 1rem;
     }
-    .team-member{
+
+    .team-member {
         height: auto;
         width: 100%;
     }
-    .Intro > h4{
+
+    .Intro > h4 {
         font-size: 14px;
     }
-    .Intro > p{
-        font-size: 11px;
+
+    .Intro > p {
+        font-size: 12px;
     }
 
 /* plan Section Responsive css */
