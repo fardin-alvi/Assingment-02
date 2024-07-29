@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
+
 /* common CSS  */
+
 .display-flex{
     display: flex;
 }
@@ -51,7 +53,9 @@ body{
 header{
     background: linear-gradient( 180deg , rgb(17, 17, 17,0.9),rgba(119, 119, 119, 0) 100%);
 }
+
 /* nav bar css  */
+
 .nav-left-content{
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -94,21 +98,18 @@ header{
 }
 
 /* banner releted css  */
+
 .banner{
-    /* border: 1px solid black; */
     margin: 0 14%;
 }
 .banner-left-content{
-    /* border: 1px solid red; */
     justify-content: center;
     align-content: center;
-    /* margin-bottom: 60px; */
 }
 #shape{
     font-family:'Dancing Script', cursive;
     font-weight: 300;
     font-size: 60px;
-
 }
 .banner-title{
     color: rgb(255, 255, 255);
@@ -121,15 +122,11 @@ header{
 .banner-description{
     font-size: 14px;
 }
-
 .banner-right-content{
-    /* border: 1px solid hotpink; */
     justify-content: center;
     align-content: center;
-    /* margin-bottom: 60px; */
 }
 .banner-image{
-    /* border: 1px solid greenyellow; */
     height: 70%;
     margin-left: 50px;
 }
@@ -183,7 +180,6 @@ header{
     margin-top: 4px;
 }
 .wt{
-    /* border: 1px solid black; */
     width: 30%;
     padding: 18px 8px;
     transform: translate(190% , 230px);
@@ -196,7 +192,6 @@ header{
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-
 }
 .wt-sub-title{
     color: rgba(239, 237, 232, 0.65);
@@ -209,7 +204,6 @@ header{
 
 .habit{
     margin: 0 170px ;
-    /* border: 1px solid red; */
     color: white;
     text-align: center;
     align-content: center;
@@ -224,14 +218,12 @@ header{
     margin-top: 17px;
 }
 .habit-item{
-    /* border: 1px solid greenyellow; */
     text-align: center;
 }
 .habit-content{
     margin-top: 30px;
     justify-content: center;
     gap: 10px;
-
 }
 .ex{
     height: 122px;
@@ -257,7 +249,6 @@ header{
     border-radius: 13px;
 }
 .run-content{
-    /* border: 1px solid springgreen; */
     width: 45%;
     margin-left: 30px;
 }
@@ -272,7 +263,6 @@ header{
     margin-top: 13px;
 }
 .run-image{
-    /* border: 1px solid yellow; */
     width: 240px;
     height: 280px;
     width: 45%;
@@ -293,7 +283,6 @@ header{
 /* BMI section css  */
 
 .BMI-header{
-    /* text-align: center; */
     margin-top: 80px;
     margin-left: 30%;
 }
@@ -305,20 +294,16 @@ header{
     margin-bottom: 10px;
 }
 .BMI-calculation{
-    /* border: 1px solid black; */
     margin-top: 7%;
-    background-color: rgb(34, 34, 34);
-    
+    background-color: rgb(34, 34, 34);    
 }
 .chart{
-    /* border: 1px solid greenyellow; */
     width: 50%;
     text-align: center;
     margin-top: 28px;
     margin-bottom: 10px;
 }
 .calculator{
-    /* border: 1px solid gold; */
     width: 50%;
     margin-top: 26px;
     margin-bottom: 10px;
@@ -360,12 +345,6 @@ td{
     border-color: transparent;
     background-color: rgb(57, 57, 57);
 }
-/* .BMI-input-sec{
-    width: 56%;
-    padding: 6px 12px ;
-    border-radius: 8px ;
-    border-color: transparent;
-} */
 #Gender{
     width: 30%;
     padding: 6px 12px;
@@ -388,6 +367,7 @@ td{
     width: 150px;
     border-radius: 15px;
 }
+
 /* trainer relted css  */
 
 .team{
@@ -443,6 +423,27 @@ td{
     font-weight: 400;
 }
 
+/* plan-explain &plan section css  */
+
+.plan-explanation{
+    margin: 3rem 14%;
+    text-align: center;
+    color: white;
+}
+.plan-explanation > h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 800;
+}
+.plan-explanation > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin: 1.2rem 10%;
+}
 .plan{
     margin: 4rem 14%;
     display: grid;
@@ -460,12 +461,10 @@ td{
     flex-direction: column;
     text-align: center;
     padding: 4px 7px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     transition: transform 0.2s;
 }
 .plan-card:hover{
     transform: scale(1.1) translateY(-10px);
-    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
 }
 .plan-card-title{
     margin-top: 15px;
@@ -562,7 +561,6 @@ footer{
 }
 .content-sec{
     gap: 20%;
-    /* justify-content: space-between; */
 }
 hr{
     margin: 6% 14% 0 14%;
@@ -576,5 +574,146 @@ hr{
     letter-spacing: 0.5px;
     text-align: center;
     margin: 2rem auto;
+}
 
+@media screen and (max-width:576px) {
+    .nav-bar{
+        margin: 20px 30px ;
+    }
+    .nav-left-content{
+        font-size: 45px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .hambar{
+        display: block;
+        font-size: 30px;
+        color: white;
+        margin-top: 12px;
+        margin-left: 160px;
+    }
+
+/* header banner  Section Responsive css */
+
+    .banner{
+        flex-direction: column;
+        margin: 10px 0 0 0;
+    }
+    .banner-left-content{
+        margin: 30px 0 0 30px;
+    }
+    .banner-right-content{
+        width: 100%;
+    }
+
+/* chose Habit Section Responsive css */
+
+    .habit{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .habit-content{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .ex{
+        width: auto;
+        height: auto;
+    }
+
+/* run Section Responsive css */
+
+    .run{
+        flex-direction: column;
+        width: 100%;
+        margin: 30px 3px 0 3px;
+    }
+    .run-content{
+        width: auto;
+    }
+    #run-content-btn{
+        align-content: center;
+    }
+    .run-image{
+        width: auto;
+    }
+
+/* BMI-header & BMi-calculation Section Responsive css */
+
+    .BMI-header{
+        margin: 40px auto;
+        margin-left: 6%;
+    }
+    .BMI-calculation{
+        flex-direction: column;
+    }
+    .chart{
+        width: auto;
+        margin-right: 30%;
+    }
+    .bmi-table{
+        margin: 20px auto;
+    }
+    .calculator{
+        width: auto;
+        margin-left: 6%;
+    }
+    .BMI-input-pre{
+        padding: 4px 8px;
+    }
+    #Gender{
+        width: 47%;
+    }
+    #Activity{
+        width: 95%;
+        margin-top: 4px;
+    }
+    #Calculate-btn{
+        margin-top: 20px;
+    }
+
+/* team-member Section Responsive css */
+
+    .team{
+        margin: 2rem 3%;
+    }
+    .team-card{
+        grid-template-columns: repeat( 1 , 1fr);
+        margin: 2rem 1rem;
+    }
+    .team-member{
+        height: auto;
+        width: 100%;
+    }
+    .Intro > h4{
+        font-size: 14px;
+    }
+    .Intro > p{
+        font-size: 11px;
+    }
+
+/* plan Section Responsive css */
+
+    .plan-explanation{
+        margin: 1.5rem auto;
+    }
+    .plan-explanation > p{
+        margin: 1.2 rem auto;
+    }
+    .plan{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+/* footer Section Responsive css */
+
+    .conclusion , .content-sec{
+        flex-direction: column;
+    }
+    .content-pre , .content-sec {
+        width: auto;
+    }
+    .content-sec-1 , .content-sec-2{
+        margin-top: 10px;
+    }
 }
