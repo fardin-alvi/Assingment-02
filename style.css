@@ -661,13 +661,13 @@ hr{
         margin-left: 6%;
     }
     .BMI-input-pre{
-        padding: 4px 7.5px;
+        padding: 4px 7px;
     }
     #Gender{
-        width: 45%;
+        width: 44%;
     }
     #Activity{
-        width: 91%;
+        width: 90%;
         margin-top: 4px;
     }
     #Calculate-btn{
@@ -675,25 +675,11 @@ hr{
     }
 
 /* team-member Section Responsive css */
-  
-    /* .team{
-        max-width: auto;
-    } */
     .team-card {
         grid-template-columns: repeat( 1 , 1fr);
     }
-
-    .team-member {
-        height: auto;
-        width: 100%;
-    }
-
-    .Intro > h4 {
-        font-size: 14px;
-    }
-
-    .Intro > p {
-        font-size: 12px;
+    .team-member{
+        width: auto;
     }
 
 /* plan Section Responsive css */
