@@ -4,7 +4,11 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
+/* body{
+    border: 2px dashed green;
+} */
 
 /* common CSS  */
 
@@ -393,7 +397,7 @@ td{
 .team-member{
     height: 250px;
     width: 270px;
-    /* position:relative; */
+    position:relative;
 }
 .team-member > img{
     width: 100%;
@@ -401,24 +405,25 @@ td{
     border-radius: 13px;
 }
 .Intro{
-    /* position: absolute;
+    position: absolute;
     left: 6%;
-    bottom:7%; */
+    bottom:7%;
     text-align: left;
     color: white;
-    transform: translate(10px , -3rem)
 }
 .Intro > h4{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 13px;
     font-weight: 700;
+    width: 200px;
 }
 .Intro > p{
     color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 11px;
     font-weight: 400;
+    width: 200px;
 }
 
 /* plan-explain &plan section css  */
@@ -628,7 +633,7 @@ hr{
     .run{
         flex-direction: column;
         width: 100%;
-        margin: 30px 3px 0 3px;
+        margin: 30px 2px 0 2px;
     }
     .run-content{
         width: auto;
@@ -681,6 +686,7 @@ hr{
     .team-member{
         width: auto;
     }
+
 
 /* plan Section Responsive css */
 
