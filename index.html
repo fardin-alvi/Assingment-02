@@ -50,7 +50,7 @@
     </header>
     <main>
         <section class="habit">
-            <h2 class="habit-title">Change Your Habits</h2>
+            <h2 class="h2-title">Change Your Habits</h2>
             <p class="habit-description title-description-font">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             <div class="habit-content display-flex">
                 <div class="habit-item">
@@ -85,103 +85,105 @@
                 <img src="./images/run.jpg" alt="">
             </div>
         </section>
-        <section class="BMI-header">
-            <h1 class="BMI-header-title">BMI Calculator</h1>
-            <p class="BMI-header-description title-description-font">The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight <br> status while taking age into consideration.</p>
-        </section>
-        <section class="BMI-calculation display-flex">
-            <div class="chart">
-                <h2 class="calculate-title-font">BMI Calculator Chart</h2>
-                <table class="bmi-table">
-                    <tbody>
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight status</th>
-                        </tr>
-                        <tr>
-                            <td>Below 18.5</td>
-                            <td>Underweight</td>
-                        </tr>
-                        <tr>
-                            <td>18.5 - 24.9</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>25.0 - 29.9</td>
-                            <td>Overweight</td>
-                        </tr>
-                        <tr>
-                            <td>30.0 and above</td>
-                            <td>Obese</td>
-                        </tr>
-                    </tbody>  
-                </table>
+        <section class="bmi-header">
+            <div class="bmi-header-title">
+                <h2 class="h2-title">BMI Calculator</h2>
+                <p class="title-description-font">The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.</p>
             </div>
-            <div class="calculator">
-                <h2 class="calculator-title calculate-title-font">Calculate Your BMI</h2>
-                <p class="calculator-description title-description-font">Every Person should Check the BMI and it will be stand in safety <br> form on your everyday lifeSo here the checker for your checking BMI.</p>
-                <form class="BMI-form">
-                    <input class="BMI-input-pre" type="text" placeholder="Height/cm" name="" id="">
-                    <input class="BMI-input-pre" type="text" placeholder="Weight/Kg" name="" id=""><br>
-                    <input class="BMI-input-pre" type="number" placeholder="Age" name="" id="">
-                    <select name="" id="Gender">
-                        <option value="Sex">Sex</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select><br>
-                    <select name="" id="Activity">
-                        <option value="">Select an Activity factor</option>
-                    </select> <br>
-                    <button id="Calculate-btn" class="btn-primary">Calculate</button>
-                </form>
-                <div>
+            <div class="bmi-container display-flex">
+                <div class="bmi-chart">
+                    <h3 class="bmi-container-title-font">BMI Calculator Chart</h3>
+                    <p class="title-description-font">The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.</p>
+                    <table class="bmi-table">
+                        <tbody>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 and above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>  
+                    </table>
+                </div>
+                <div class="bmi-form-container">
+                    <h3 class="bmi-container-title-font">Calculate your BMI</h3>
+                    <p class="title-description-font">Every Person should Check the BMI and it will be stand in safety form on your everyday lifeSo here the checker for your checking BMI.</p>
+                    <div>
+                        <form class="bmi-form">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="text" placeholder="Age">
+                            <select id="gender">
+                                <option value="">Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+                            <select id="activity">
+                                <option value="text">Select an Activity factor</option>
+                            </select>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="team">
-            <div>
-                <h1 class="team-title">Meet Our Team</h1>
-                <p class="team-description title-description-font">Belive that , your growth you can't measure lonely but if you connect with a trainer.then it will assure your growth.</p>
+        <section class="team-container">
+            <div class="team-header">
+                <h2 class="h2-title">Meet Our Team</h2>
+                <p class="title-description-font">Belive that , your growth you can't measure lonely but if you connect with a trainer.then it will assure your growth.</p>
             </div>
-            <div class="team-card">
+            <div class="team-member-container">
                 <div class="team-member">
                     <img src="./images/trainer1.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Jerome Bell</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
                 <div class="team-member">
                     <img src="./images/trainer2.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Cameron Williamson</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
                 <div class="team-member">
                     <img src="./images/trainer3.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Darrel Steward</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
                 <div class="team-member">
                     <img src="./images/trainer4.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Dianne Russell</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
                 <div class="team-member">
                     <img src="./images/trainer5.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Cody Fisher</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
-                <div  class="team-member">
+                <div class="team-member">
                     <img src="./images/trainer6.png" alt="">
-                    <div class="Intro">
+                    <div class="team-member-intro">
                         <h4>Theresa Web</h4>
                         <p>Trainer</p>
                     </div>
@@ -189,8 +191,8 @@
             </div>
         </section>
         <section class="plan-explanation">
-            <h2>Choose Your Plan</h2>
-            <p>Transform your body and mind with our tailored gym plans,where your fitness goals become reality.Start your journey to a healthier, stronger you today!</p>
+            <h2 class="h2-title">Choose Your Plan</h2>
+            <p class="title-description-font">Transform your body and mind with our tailored gym plans,where your fitness goals become reality.Start your journey to a healthier, stronger you today!</p>
         </section>
         <section class="plan">
             <div class="plan-card">
@@ -218,7 +220,8 @@
                 <button class="plan-btn">JOIN NOW</button>                   
             </div>
             <div class="plan-card">
-                <h2 class="plan-card-title">Yearly Package</h2>                <div class="plan-card-content">
+                <h2 class="plan-card-title">Yearly Package</h2>
+                <div class="plan-card-content">
                     <h5>Monthly massage therapy.</h5>
                     <h5>High-Intensity with Training</h5>
                     <h5>12 personal training sessions </h5>

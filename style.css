@@ -4,12 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
 }
-/* body{
-    border: 2px dashed green;
-} */
-
 /* common CSS  */
 
 .display-flex{
@@ -38,6 +33,12 @@ body{
     font-weight: 400;
     margin-top: 7px;
 }
+.h2-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+}
 .habit-title-description{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -45,7 +46,7 @@ body{
     font-weight: 300;
     margin-top: 5px; 
 }
-.calculate-title-font{
+.bmi-container-title-font{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 22px;
@@ -209,12 +210,7 @@ header{
     text-align: center;
     align-content: center;
 }
-.habit-title{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 35px;
-    font-weight: 700;
-}
+
 .habit-description{
     margin-top: 17px;
 }
@@ -280,44 +276,44 @@ header{
     width: 100%;
     border-radius: 15px;
 }
+/* bmi header section css  */
 
-/* BMI section css  */
-
-.BMI-header{
-    margin-top: 80px;
-    margin-left: 30%;
-}
-.BMI-header-title{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 37px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.BMI-calculation{
-    margin-top: 7%;
-    background-color: rgb(34, 34, 34);    
-}
-.chart{
-    width: 50%;
+.bmi-header{
     text-align: center;
-    margin-top: 28px;
-    margin-bottom: 10px;
+    margin: 4% auto;
 }
-.calculator{
-    width: 50%;
-    margin-top: 26px;
-    margin-bottom: 10px;
+.bmi-header p{
+    margin-top: 13px;
+    line-height: 1rem;
+}
+
+/* bmi container releted css  */
+
+.bmi-header-title{
+    margin: 1rem 0;
+}
+
+.bmi-container{
+    margin: 1.5rem 0;
+    justify-content: space-around;
+    gap: 1.5rem;
+    background-color: rgb(34, 34, 34); 
+}
+.bmi-chart{
+    margin: 2rem 0;
+    margin-left: 7%;
+    
+}
+.bmi-chart p , h3{
+    text-align: left;
 }
 .bmi-table{
     border-collapse: collapse;
-    margin-left: 32%;
-    margin-top: 30px;
+    margin-top: 1rem;
 }
 td , th{
     border: 1px solid white;
-    margin: 10px 20px;
-    padding: 10px;
+    padding: 10px 1.5rem;
 }
 th{
     color: rgb(255, 255, 255);
@@ -331,119 +327,88 @@ td{
     font-size: 12px;
     font-weight: 400;
 }
-.calculator-description{
-    margin-top: 10px;
+.bmi-form-container{
+    text-align: left;
+    margin: 2rem 0;
+    margin-right: 7%;
 }
-.BMI-form{
-    margin: 30px auto;
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2 , 180px);
+    gap: 9px;
+    margin: 2rem 0;
 }
-.BMI-form > input{
-    margin: 3px 0;
-}
-.BMI-input-pre{
-    padding: 6px 12px;
-    border-radius: 8px;
+.bmi-form input{
+    padding: 4px 7px;
+    border-radius: 4px;
     border-color: transparent;
     background-color: rgb(57, 57, 57);
 }
-#Gender{
-    width: 30%;
-    padding: 6px 12px;
-    border-radius: 8px;
-    border-color: transparent;
-    background-color: rgb(57, 57, 57);
-    color: rgba(255, 255, 255, 0.3);
+#activity{
+    grid-column: 1/span 2;
 }
-#Activity{
-    width: 61%;
-    padding: 6px 12px ;
-    border-radius: 8px ;
-    border-color: transparent;
+#gender , #activity{
+    padding: 4px 7px;
+    border-radius: 4px;
     background-color: rgb(57, 57, 57);
     color: rgba(255, 255, 255, 0.3);
-}
-#Calculate-btn{
-    margin-top: 10px;
-    padding: 7px 25px;
-    width: 150px;
-    border-radius: 15px;
+    border-color: transparent;
 }
 
-/* trainer relted css  */
+/* team container css  */
 
-.team{
-    margin: 3.5rem 14%;
-    text-align: center;
+.team-header p{
+    margin-top: 11px;
 }
-.team-title{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 800;
+.team-header{
+    margin: 2rem 30%;
 }
-.team-description{
-    margin-top: 15px;
-}
-.team-card{
+.team-member-container{
+    margin: 2rem 14%;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    padding: 20px;
-    row-gap: 12px;
-    column-gap: 12px;
-    margin: 4rem 1rem;
-    border-radius: 12px;
+    justify-content: center;
+    justify-items: center;
     background-color: rgb(26, 26, 26);
+    border-radius: 7px;
 }
 .team-member{
-    height: 250px;
     width: 270px;
-    position:relative;
+    height: 240px;
+    margin: 1rem auto;
+    
 }
-.team-member > img{
+.team-member img{
     width: 100%;
     height: 100%;
-    border-radius: 13px;
+    border-radius: 8px;
+
 }
-.Intro{
-    position: absolute;
-    left: 6%;
-    bottom:7%;
-    text-align: left;
-    color: white;
+.team-member-intro{
+    position: relative;
+    left: 10px;
+    bottom: 3rem;
 }
-.Intro > h4{
+.team-member-intro h4{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 13px;
-    font-weight: 700;
-    width: 200px;
+    font-weight: 600;
 }
-.Intro > p{
+.team-member-intro p{
     color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 11px;
     font-weight: 400;
-    width: 200px;
 }
-
-/* plan-explain &plan section css  */
+/* plan releted css  */
 
 .plan-explanation{
     margin: 3rem 14%;
     text-align: center;
     color: white;
 }
-.plan-explanation > h2 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 31px;
-    font-weight: 800;
-}
-.plan-explanation > p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
+.plan-explanation p {
     line-height: 1.2rem;
     margin: 1.2rem 10%;
 }
@@ -481,14 +446,14 @@ td{
     margin: 7px 3rem;
     margin-top: 1.5rem;
 }
-.plan-card-content > h5{
+.plan-card-content h5{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 11px;
     font-weight: 400;
     line-height: 1.3rem;
 }
-.plan-card > h3{
+.plan-card h3{
     color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 22px;
@@ -513,8 +478,7 @@ td{
 .plan-btn:hover{
     background-color: rgb(230, 83, 60);
 }
-
-/* Footer section css  */
+/* footer section css  */
 
 footer{
     border: 1px solid rgb(26, 26, 26) ;
@@ -578,10 +542,6 @@ hr{
     text-align: center;
     margin: 2rem auto;
 }
-.hide{
-    display: none;
-}
-
 @media screen and (max-width:576px) {
     .nav-bar{
         margin: 20px 30px ;
@@ -644,63 +604,40 @@ hr{
     .run-image{
         width: auto;
     }
-
-/* BMI-header & BMi-calculation Section Responsive css */
-
-    .BMI-header{
-        margin: 40px auto;
-        margin-left: 6%;
+    .bmi-header{
+        text-align: left;
+        width: auto;
     }
-    .BMI-calculation{
+    
+ /* bmi container releted responsive css  */
+
+    .bmi-container{
         flex-direction: column;
     }
-    .chart{
-        width: auto;
-        margin-right: 30%;
+    .bmi-form-container{
+        margin: 5px 1.2rem;
     }
-    .bmi-table{
-        margin: 20px auto;
+    .bmi-header-title{
+        margin: 10px 1rem;
     }
-    .calculator{
-        width: auto;
-        margin-left: 6%;
-    }
-    .BMI-input-pre{
-        padding: 4px 7px;
-    }
-    #Gender{
-        width: 44%;
-    }
-    #Activity{
-        width: 90%;
-        margin-top: 4px;
-    }
-    #Calculate-btn{
-        margin-top: 20px;
-    }
+ /* team member releted responsive css  */
 
-/* team-member Section Responsive css */
-    .team-card {
-        grid-template-columns: repeat( 1 , 1fr);
+    .team-member-container{
+        grid-template-columns: repeat(1, 1fr);
     }
-    .team-member{
-        width: auto;
+    .team-header{
+        margin: 1rem 10%;
     }
+ /* plan releted responsive css  */
 
-
-/* plan Section Responsive css */
-
-    .plan-explanation{
-        margin: 1.5rem auto;
-    }
-    .plan-explanation > p{
-        margin: 1.2 rem auto;
-    }
     .plan{
         grid-template-columns: repeat(1 , 1fr);
     }
+    .plan-explanation p{
+        margin: 1.2rem auto;
+    }
 
-/* footer Section Responsive css */
+ /* footer releted responsive css  */
 
     .conclusion , .content-sec{
         flex-direction: column;
