@@ -294,7 +294,7 @@ header{
 }
 
 .bmi-container{
-    margin: 1.5rem 0;
+    margin: 5% 0;
     justify-content: space-around;
     gap: 1.5rem;
     background-color: rgb(34, 34, 34); 
@@ -364,7 +364,7 @@ td{
     margin: 2rem 30%;
 }
 .team-member-container{
-    margin: 2rem 14%;
+    margin: 5% 14%;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     justify-content: center;
@@ -413,7 +413,7 @@ td{
     margin: 1.2rem 10%;
 }
 .plan{
-    margin: 4rem 14%;
+    margin: 5% 14%;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap: 2rem;
