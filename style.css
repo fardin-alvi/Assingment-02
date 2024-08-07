@@ -296,7 +296,7 @@ header{
 .bmi-container{
     margin: 5% 0;
     justify-content: space-around;
-    gap: 1.5rem;
+    gap: 10%;
     background-color: rgb(34, 34, 34); 
 }
 .bmi-chart{
@@ -309,7 +309,7 @@ header{
 }
 .bmi-table{
     border-collapse: collapse;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 td , th{
     border: 1px solid white;
@@ -331,12 +331,13 @@ td{
     text-align: left;
     margin: 2rem 0;
     margin-right: 7%;
+    width: 50%;
 }
 .bmi-form{
     display: grid;
     grid-template-columns: repeat(2 , 180px);
     gap: 9px;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 .bmi-form input{
     padding: 4px 7px;
@@ -616,6 +617,7 @@ hr{
     }
     .bmi-form-container{
         margin: 5px 1.2rem;
+        width: auto;
     }
     .bmi-header-title{
         margin: 10px 1rem;
@@ -626,7 +628,8 @@ hr{
         grid-template-columns: repeat(1, 1fr);
     }
     .team-header{
-        margin: 1rem 10%;
+        width: 80%;
+        margin-left: 15%;
     }
  /* plan releted responsive css  */
 
