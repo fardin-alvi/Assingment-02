@@ -181,6 +181,9 @@ header{
     border-radius: 50%;
     margin-top: 4px;
 }
+.fa-solid{
+    transform: translate(75% , 45%);
+}
 .wt{
     width: 30%;
     padding: 18px 8px;
@@ -557,7 +560,6 @@ hr{
         display: block;
         font-size: 30px;
         color: white;
-        margin-top: 12px;
         margin-left: 140px;
     }
 
