@@ -560,7 +560,7 @@ hr{
         display: block;
         font-size: 30px;
         color: white;
-        margin-left: 140px;
+        /* margin-left: 140px; */
     }
 
 /* header banner  Section Responsive css */
