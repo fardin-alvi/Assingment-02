@@ -182,7 +182,9 @@ header{
     margin-top: 4px;
 }
 .fa-solid{
-    transform: translate(75% , 45%);
+    position: relative;
+    left: 35%;
+    top: 25%;  
 }
 .wt{
     width: 30%;
