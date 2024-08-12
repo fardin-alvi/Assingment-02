@@ -184,7 +184,8 @@ header{
 .fa-solid{
     position: relative;
     left: 35%;
-    top: 25%;  
+    top: 25%;
+    color: white;
 }
 .wt{
     width: 30%;
